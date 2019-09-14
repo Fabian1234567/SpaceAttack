@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<launch4jConfig>
+  <headerType>gui</headerType>
+  <dontWrapJar>true</dontWrapJar>
+  <downloadUrl>http://java.com/download</downloadUrl>
+  <outfile>/run/user/1000/gvfs/smb-share:server=mycloud-101167,share=public/fabian/Github/SpaceAttack/application.windows32/SpaceAttack.exe</outfile>
+  <icon>/home/fabske/Programme/processing-3.5.3-linux64/processing-3.5.3/modes/java/application/sketch.ico</icon>
+  <classPath>
+    <mainClass>SpaceAttack</mainClass>
+    <cp>lib/SpaceAttack.jar</cp>
+    <cp>lib/core.jar</cp>
+    <cp>lib/jogl-all.jar</cp>
+    <cp>lib/gluegen-rt.jar</cp>
+    <cp>lib/jogl-all-natives-windows-i586.jar</cp>
+    <cp>lib/gluegen-rt-natives-windows-i586.jar</cp>
+  </classPath>
+  <jre>
+    <minVersion>1.8.0_74</minVersion>
+    <opt>-Djna.nosys=true</opt>
+    <opt>-Djava.library.path="%EXEDIR%\lib"</opt>
+  </jre>
+</launch4jConfig>
